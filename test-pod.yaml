@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: test-pod
 spec:
-  schedulerName: mikischeduler  # Specify the scheduler you want to use
+  schedulerName: mikischeduler
   containers:
     - name: nginx-container
       image: nginx
